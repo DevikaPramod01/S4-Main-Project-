@@ -8,7 +8,7 @@ chrome_driver_path ='C:/Users/devik/Desktop/S4 main project/prjt/chromedriver-wi
 
 total_page = 15
 page_size = 50
-
+       
 path_template = 'http://addgene.org/search/catalog/plasmids/?page_number={}&page_size={}&q=e.coli'
 driver = webdriver.Chrome(chrome_driver_path)
 
