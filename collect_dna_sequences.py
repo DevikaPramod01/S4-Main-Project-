@@ -1,7 +1,7 @@
 from selenium import webdriver
 # The BeautifulSoup module
 from bs4 import BeautifulSoup
-
+    
 # you have to run the script after running collect_ids.py
 # configure the following
 #chrome_driver_path = 'D:/Downloads/chromedriver_win32/chromedriver.exe'
