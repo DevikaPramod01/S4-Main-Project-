@@ -10,7 +10,7 @@ chrome_driver_path = 'C:/Users/devik/Desktop/S4 main project/prjt/chromedriver-w
 path_template = 'http://www.addgene.org/{}/sequences/'
 plasmid_ids = [line.rstrip('\n') for line in open('plasmid_ids.txt')]
 driver = webdriver.Chrome(chrome_driver_path)
-
+      
 n = 0
 with open('all_plasmid_dna.txt', 'w', encoding='utf-8') as f:
     for id in plasmid_ids:
