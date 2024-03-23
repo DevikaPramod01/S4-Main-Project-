@@ -5,7 +5,6 @@ from selenium import webdriver
 #chrome_driver_path = 'D:/Downloads/chromedriver_win32/chromedriver.exe'
 chrome_driver_path ='C:/Users/devik/Desktop/S4 main project/prjt/chromedriver-win64/chromedriver-win64/chromedriver.exe'
 
-
 total_page = 15
 page_size = 50
        
